@@ -23,3 +23,8 @@ runs:
       shell: bash
     - run: goodbye.sh
       shell: bash
+    - name: List Branches Docker Action
+      uses: geovanams/List-branches-action@v1
+      with:
+        owner: geovanams
+        repo: public-repo
