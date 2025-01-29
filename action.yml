@@ -28,3 +28,8 @@ runs:
       with:
         owner: geovanams
         repo: public-repo
+    - name: Hello world action step Javascript
+      id: hello
+      uses: geovanams/hello-world-javascript-action/hello-world-javascript-action@main
+      with:
+        who-to-greet: 'Geovana'
